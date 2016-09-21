@@ -1,0 +1,24 @@
+=============================== MongoDB =========================
+>use test
+>db.dummy.insert({"name":"testing"})
+
+=============================== API =============================
+
+Return all users:
+GET http://localhost:4444/users/
+
+Return a user by Id:
+GET http://localhost:4444/users/{id}
+
+Create a new user:
+POST http://localhost:4444/users
+Header:Content-Type:application/json
+Body:
+   {
+        "userId":"1",
+        "name":"Usernamexyz"
+    }
+
+Delete a user by Id:
+DELETE http://localhost:4444/users/{id}
+

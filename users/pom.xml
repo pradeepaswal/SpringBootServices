@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.robertocrespo.microservices</groupId>
+	<groupId>net.awspoc.microservices</groupId>
 	<artifactId>users</artifactId>
 	<version>1.0.1-RELEASE</version>
 	<packaging>jar</packaging>
@@ -26,9 +26,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/rcrespop/microservice-users.git</connection>
-		<developerConnection>scm:git:https://${username}:${password}@github.com/rcrespop/microservice-users.git</developerConnection>
-		<url>scm:git:https://rcrespop@github.com/rcrespop/microservice-users.git</url>
+		<connection>scm:git:https://github.com/pradeepaswal/SpringBootServices.git</connection>
+		<developerConnection>scm:git:https://${username}:${password}@github.com/pradeepaswal/SpringBootServices.git</developerConnection>
+		<url>scm:git:https://git@github.com:pradeepaswal/SpringBootServices.git</url>		
 		<tag>HEAD</tag>
 	</scm>
 	
@@ -75,10 +75,6 @@
             <version>${springfox.version}</version>
         </dependency>
         
-        <!--  <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>  -->
 	</dependencies>
 
 	<build>
